@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.quana.funwithfragment.fragment.MainFragment">
+
+    <EditText
+        android:id="@+id/main_fragment_editext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/fragment_01_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Fragment01" />
+    <Button
+        android:id="@+id/fragment_02_button"
+        android:text="Fragment02"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/fragment_03_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Fragment03"/>
+    <Button
+        android:id="@+id/fragment_04_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Fragment04"/>
+    <Button
+        android:id="@+id/fragment_05_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Fragment05"/>
+
+</LinearLayout>
